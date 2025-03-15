@@ -2,7 +2,7 @@
     --color-primary: #4B69FD;
     --color-secondary: #FFF9EB;
     --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
+    --color-button: #4B69FD;
     --color-button-hover: #e55720;
     --color-text: #444444;
     --color-white: #FFFFFF;
@@ -159,4 +159,10 @@ ul {
 
 .button-draw:hover {
     background-color: var(--color-button-hover);
+}
+
+.button-draw:disabled {
+    background-color: gray; /* Color de fondo cuando está deshabilitado */
+    color: lightgray; /* Color del texto cuando está deshabilitado */
+    cursor: not-allowed; /* Cambia el cursor para indicar que no se puede hacer clic */
 }

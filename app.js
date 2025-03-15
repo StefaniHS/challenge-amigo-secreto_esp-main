@@ -1,9 +1,3 @@
-// El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. Aquí deberás desarrollar la lógica para resolver el problema.
-
-//funcion Validar entrada
-//funcion Agregar nombres
-//Visualizar la lista
-//funcion Sorteo aleatorio
 //boton reiniciar sorteo
 //eliminar a los sorteados para que no se repitan
 //opcion eliminar ingreso y que cada participante se muestre con un numero
@@ -59,11 +53,22 @@ function sortearAmigo() {
     let amigoSorteado = amigo[Math.floor(Math.random() * amigo.length)];
     let resultado = document.getElementById("resultado");
     resultado.innerHTML = `El amigo sorteado es: ${amigoSorteado}`;
-    let limpiarLista = document.getElementById("listaAmigos");
-    limpiarLista.innerHTML = "";
+    document.getElementById("reiniciar").removeAttribute('disabled');
+    
 
 }
 
 
-
+function reiniciarSorteo(){
+    
+    let limpiarLista = document.getElementById("listaAmigos");
+    limpiarLista.innerHTML = "";
+    let limpiarResultado = document.getElementById("resultado")
+    resultado.innerHTML = "";
+    amigo = [];
+    document.getElementById("amigo").focus();
+    alert("Ahora puedes ingresar nuevamente los nombres a sortear");
+    document.getElementById("reiniciar").setAttribute('disabled', 'true');
+    
+}
 
