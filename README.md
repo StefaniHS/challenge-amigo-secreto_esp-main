@@ -3,19 +3,19 @@
 
 ÍNDICE
 
-[](#Descripción-del-proyecto)
+[Descripción del proyecto]()
 
 [Estado del proyecto](#Estado-del-proyecto)
 
-*[Características de la aplicación y demostración]
+[Características de la aplicación y demostración]()
 
-*[Acceso al proyecto]
+[Acceso al proyecto]()
 
-*[Tecnologías utilizadas]
+[Tecnologías utilizadas]()
 
-*[Personas Contribuyentes]
+[Personas Contribuyentes]()
 
-*[Personas-Desarrolladores del Proyecto]
+[Personas-Desarrolladores del Proyecto]()
 
 [Conclusión](#conclusión)
 
