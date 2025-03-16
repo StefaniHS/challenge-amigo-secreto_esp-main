@@ -3,9 +3,9 @@
 
 ÍNDICE
 
-*[Descripción del proyecto]
+[](#Descripción-del-proyecto)
 
-*[Estado del proyecto]
+[Estado del proyecto](#Estado-del-proyecto)
 
 *[Características de la aplicación y demostración]
 
@@ -17,9 +17,7 @@
 
 *[Personas-Desarrolladores del Proyecto]
 
-
-
-*[Conclusión](#conclusión)
+[Conclusión](#conclusión)
 
 
 ## :hammer:Descripción del proyecto
