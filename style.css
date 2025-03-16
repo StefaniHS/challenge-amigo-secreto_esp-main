@@ -16,18 +16,17 @@
 }
 
 body {
-    height: 100vh;
+   
     background-color: var(--color-primary);
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
 }
 
 .main-content {
+    flex: 1;
     display: flex;
     flex-direction: column;
-    height: 100%;
-    width: 100%;
+       width: 100%;
 }
 
 /* Banner */
@@ -118,13 +117,13 @@ button {
 }
 
 .button-add {
-    background-color: var(--color-tertiary);
-    color: var(--color-text);
+    background-color: var(--color-primary);
+    color: var(--color-white);
     border-radius: 0 25px 25px 0;
 }
 
 .button-add:hover {
-    background-color: #a1a1a1;
+    background-color: #e55720;
 }
 
 /* Listas */
@@ -170,4 +169,13 @@ ul {
     /* Color del texto cuando está deshabilitado */
     cursor: not-allowed;
     /* Cambia el cursor para indicar que no se puede hacer clic */
+}
+.footer {
+    width: 100%;
+    margin: 0;
+    background-color: var(--color-primary);
+    padding: 6px; 
+    text-align: center;
+    color: var(--color-white); 
+    font-size: 14px;
 }
