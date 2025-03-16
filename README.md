@@ -1,16 +1,7 @@
-Indicaciones
-Descripción de su proyecto;
-funcionalidades;
-Cómo pueden usarlo los usuarios;
-Donde los usuarios pueden encontrar ayuda sobre su proyecto;
-Autores del proyecto.
-
 
 <h1 align="center"> Sorteo del amigo secreto </h1>
 
 ##Índice
-
-*[Título ](#Título)
 
 *[Descripción del proyecto](#descripción-del-proyecto)
 
@@ -32,6 +23,7 @@ Autores del proyecto.
 
 
 *[Descripción del proyecto](#descripción-del-proyecto)
+El proyecto consiste en realizar un sorteo de amigos del juego amigo secreto, donde podremos ingresar los nombres, añadirlos y almacenarlos en una lista, para luego sortearlos y al final poder reiniciar el sorteo con nuevos nombres.
 ## :hammer:Funcionalidades del proyecto
 
 `Funcionalidad agregar Amigo`: descripción de la funcionalidad 1- 
