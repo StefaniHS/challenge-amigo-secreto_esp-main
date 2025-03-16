@@ -88,8 +88,10 @@ body {
 }
 
 .button-container {
-    width: 300px;
-    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+
 }
 
 /* Estilos de entrada de texto */
@@ -146,11 +148,11 @@ ul {
 .button-draw {
     display: flex;
     align-items: center;
-    width: 100%;
-    padding: 10px 40px;
+    padding: 10px 30px;
     color: var(--color-white);
     background-color: var(--color-button);
     font-size: 16px;
+
 }
 
 .button-draw img {
@@ -162,7 +164,10 @@ ul {
 }
 
 .button-draw:disabled {
-    background-color: gray; /* Color de fondo cuando está deshabilitado */
-    color: lightgray; /* Color del texto cuando está deshabilitado */
-    cursor: not-allowed; /* Cambia el cursor para indicar que no se puede hacer clic */
+    background-color: gray;
+    /* Color de fondo cuando está deshabilitado */
+    color: lightgray;
+    /* Color del texto cuando está deshabilitado */
+    cursor: not-allowed;
+    /* Cambia el cursor para indicar que no se puede hacer clic */
 }

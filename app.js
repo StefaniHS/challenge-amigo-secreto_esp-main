@@ -1,7 +1,5 @@
-//boton reiniciar sorteo
-//eliminar a los sorteados para que no se repitan
-//opcion eliminar ingreso y que cada participante se muestre con un numero
-//y que no permita ingresar dos nombres iguales
+
+
 
 //aqui se almacenan los nombres ingresados
 let amigo = [];
@@ -39,7 +37,7 @@ function mostrarListaAmigos() {
 
     for (let i = 0; i < amigo.length; i++) {
         let item = document.createElement("li");
-        item.textContent = amigo[i];
+        item.textContent = [i+1]+ ") "+amigo[i];
         listaAmigos.appendChild(item);
     }
 }
@@ -53,14 +51,15 @@ function sortearAmigo() {
     let amigoSorteado = amigo[Math.floor(Math.random() * amigo.length)];
     let resultado = document.getElementById("resultado");
     resultado.innerHTML = `El amigo sorteado es: ${amigoSorteado}`;
+  
     document.getElementById("reiniciar").removeAttribute('disabled');
-    
+
 
 }
 
 
-function reiniciarSorteo(){
-    
+function reiniciarSorteo() {
+
     let limpiarLista = document.getElementById("listaAmigos");
     limpiarLista.innerHTML = "";
     let limpiarResultado = document.getElementById("resultado")
@@ -69,6 +68,6 @@ function reiniciarSorteo(){
     document.getElementById("amigo").focus();
     alert("Ahora puedes ingresar nuevamente los nombres a sortear");
     document.getElementById("reiniciar").setAttribute('disabled', 'true');
-    
+
 }
 
