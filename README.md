@@ -36,7 +36,7 @@ El proyecto consiste en realizar un sorteo de amigos del juego amigo secreto, do
 :construction: Proyecto culminado.
 
 ## :hammer:Acceso al proyecto
-Solamente dando click en el index
+Se puede ejecutar el proyecto dando click en el index o con la opcion open with live server en el Visual Studio Code.
 
 ## :hammer:Tecnologías utilizadas
 
